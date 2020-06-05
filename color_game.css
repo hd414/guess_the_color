@@ -1,0 +1,61 @@
+.square{
+	width: 30%;
+	float: left;
+	padding-bottom: 30%;
+	background: orange;
+	margin: 1.66%;
+	transition: all 0.5s;
+	-moz-transition : 0.5s;
+	border-radius: 40%;
+
+}
+body
+ {
+ 	background-color: black;
+ 	margin: 0;
+ 	font-family: "comic sans ms";
+ 	line-height: 1; 
+
+ }
+ .container{
+ 	margin :20px auto;
+    max-width: 600px
+}
+
+ #stripe{
+ 	height: 30px;
+ 	
+ 	background-color: white;
+ }
+
+ .selected
+ {
+ 	background-color: skyblue;
+ 	color: white;
+ }
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+    background-color: skyblue;
+    margin: 0;
+    line-height: 1.2;
+}
+button{
+	text-transform: uppercase;
+	border: none;
+	background: none;
+	height: 100%;
+	font-size: inherit;
+	font-weight: 700;
+	color: skyblue;
+	transition: all 0.1s;
+	outline: none;
+}
+button:hover
+{
+	color: white;
+	background: skyblue;
+}
